@@ -1,4 +1,5 @@
 #1
+#2
 def main():
     for fizzbuzz in range(1, 101):
         if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
@@ -11,6 +12,8 @@ def main():
             print("buzz")
         else:
             print(fizzbuzz)
+
+
 
 
 if __name__ == "__main__":
